@@ -1,6 +1,5 @@
 import requests
 from lxml import etree
-import time
 
 file = open("verbos.txt", "a")
 for page in range(1, 207):
