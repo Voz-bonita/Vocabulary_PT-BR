@@ -7,6 +7,9 @@ This is a vocabulary containing a ton of words in portuguese (brazilian) made to
 * [Dicio](https://www.dicio.com.br/)
 * [Conjugacao](https://www.conjugacao.com.br/)
 
+#### Note: 
+Even though this repo contains the same scrapping sources of Matheus73's repo, this was done using lxml instead of BS4 (BeautifulSoup4) and inlcudes a much wider range of words.
+
 ## Files
 | File | Content | Number of words | Source | Source code |
 | --- | --- | --- | --- | --- |
