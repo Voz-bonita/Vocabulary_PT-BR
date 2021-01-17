@@ -1,29 +1,23 @@
-# Web Scraping Vocabulário Português-Br
+# Web Scraping Vocabulary PT-BR
 
-## O que é?
+## What is it?
 
-Vocabulário contendo palavras em português (pt-br) feito para suprir a falta de materiais de qualidade com esse tipo de conteúdo.
-
-Em uma busca pela internet encontrei vocabulários menores e com alguns problemas, o mais completo que encontrei foi o seguinte:
-    
-* [ime usp](https://www.ime.usp.br/~pf/dicios/index.html)
-
-Possuindo no total **261798 palavras**.
-
-
-Para a construção do vocabulário foram usados como base os seguintes sites:
+This is a vocabulary containing a ton of words in portuguese (brazilian) made to "enhance" Matheus73's collecting all words supplied by the sources
 
 * [Dicio](https://www.dicio.com.br/)
 * [Conjugacao](https://www.conjugacao.com.br/)
 
 
-## Arquivos
-| Arquivo | Conteúdo | Número de palavras |
+
+
+
+## Files
+| File | Content | Number of words |
 | --- | --- | --- |
-|verbos.txt| Verbos no infinitivo | 5000 |
-| conjugacao.txt | Todas as conjugações dos verbos do arquivo `verbos.txt`| 461534 |
-| dicio.txt | Palavras encontradas no site [Dicio](https://www.dicio.com.br/) | 159704 |
-| vocabulario.txt| Arquivo final | 691259  |
+| `conjugacao-verbos.txt` | Infintive form verbs | 20526 |
+| `conjugacao-verbos_conjugados.txt` | All conjugated forms of all verbs from `verbos.txt`| 1703200 (Unique) |
+| `dicio.txt` | All words listed as *palavras mais buscadas* at [Dicio](https://www.dicio.com.br/) | 160923 |
+| `vocabulary.txt` | Whole words collection | 1864779 (Unique) |
 
 
 ### verbos.txt
